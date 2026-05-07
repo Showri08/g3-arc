@@ -62,7 +62,7 @@ main>section{
 .text-light-gray{
     color: #727272;
 }
-.navbar, .banner{
+.navbar, .banner, .footer{
     max-width: 1440px;
     margin: 0 auto;
     
@@ -179,6 +179,16 @@ main>section{
 }
 .sponsor-companies img{
     filter:grayscale(100%);
+}
+.footer-p{
+    background-color: #fff4e7;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 39px;
+    padding-bottom: 39px;
+    margin-top: 130px;
+    margin-bottom: 216px;
 }
 /* responsve */
 @media screen and ( max-width: 576px ){
